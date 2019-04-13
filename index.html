@@ -1,0 +1,19 @@
+<head></head>
+<body>
+<div id="app">
+<h3>My Identicon Generator</h3>
+<div>
+Input:
+<input v-on:input="onInput"/>
+</div>
+<div>
+Output:
+<div v-html="identicon"/>
+</div>
+</div>
+</div>
+<script src="https://cdn.rawgit.com/dmester/jdenticon/5bbdf8cb/dist/jdenticon.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="main.js"></script>
+</body>
